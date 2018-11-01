@@ -12,6 +12,14 @@
 		76C5E336218B9C7B00810EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C5E334218B9C7B00810EE9 /* Main.storyboard */; };
 		76C5E338218B9C7C00810EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C5E337218B9C7C00810EE9 /* Assets.xcassets */; };
 		76C5E33B218B9C7C00810EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C5E339218B9C7C00810EE9 /* LaunchScreen.storyboard */; };
+		76C5E34C218B9D3300810EE9 /* libFlurry_9.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E344218B9D3300810EE9 /* libFlurry_9.2.3.a */; };
+		76C5E34D218B9D3300810EE9 /* libFlurryTVOS_9.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E346218B9D3300810EE9 /* libFlurryTVOS_9.2.3.a */; };
+		76C5E34E218B9D3300810EE9 /* libFlurryWatch_9.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E347218B9D3300810EE9 /* libFlurryWatch_9.2.3.a */; };
+		76C5E34F218B9D3300810EE9 /* FlurryEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C5E348218B9D3300810EE9 /* FlurryEmpty.m */; };
+		76C5E350218B9D3300810EE9 /* FlurryWatchEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C5E349218B9D3300810EE9 /* FlurryWatchEmpty.m */; };
+		76C5E353218B9D5400810EE9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E352218B9D5400810EE9 /* Security.framework */; };
+		76C5E355218B9D5B00810EE9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E354218B9D5B00810EE9 /* SystemConfiguration.framework */; };
+		76C5E357218B9D6100810EE9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E356218B9D6100810EE9 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,19 @@
 		76C5E337218B9C7C00810EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76C5E33A218B9C7C00810EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76C5E33C218B9C7C00810EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76C5E343218B9D3300810EE9 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		76C5E344218B9D3300810EE9 /* libFlurry_9.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_9.2.3.a; sourceTree = "<group>"; };
+		76C5E345218B9D3300810EE9 /* FlurryConsent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryConsent.h; sourceTree = "<group>"; };
+		76C5E346218B9D3300810EE9 /* libFlurryTVOS_9.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryTVOS_9.2.3.a; sourceTree = "<group>"; };
+		76C5E347218B9D3300810EE9 /* libFlurryWatch_9.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryWatch_9.2.3.a; sourceTree = "<group>"; };
+		76C5E348218B9D3300810EE9 /* FlurryEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlurryEmpty.m; sourceTree = "<group>"; };
+		76C5E349218B9D3300810EE9 /* FlurryWatchEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlurryWatchEmpty.m; sourceTree = "<group>"; };
+		76C5E34A218B9D3300810EE9 /* FlurryWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryWatch.h; sourceTree = "<group>"; };
+		76C5E34B218B9D3300810EE9 /* FlurrySessionBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurrySessionBuilder.h; sourceTree = "<group>"; };
+		76C5E352218B9D5400810EE9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		76C5E354218B9D5B00810EE9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		76C5E356218B9D6100810EE9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		76C5E358218B9DD600810EE9 /* FlurryWatch_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlurryWatch_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +50,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C5E357218B9D6100810EE9 /* CoreLocation.framework in Frameworks */,
+				76C5E355218B9D5B00810EE9 /* SystemConfiguration.framework in Frameworks */,
+				76C5E353218B9D5400810EE9 /* Security.framework in Frameworks */,
+				76C5E34D218B9D3300810EE9 /* libFlurryTVOS_9.2.3.a in Frameworks */,
+				76C5E34E218B9D3300810EE9 /* libFlurryWatch_9.2.3.a in Frameworks */,
+				76C5E34C218B9D3300810EE9 /* libFlurry_9.2.3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +65,10 @@
 		76C5E324218B9C7B00810EE9 = {
 			isa = PBXGroup;
 			children = (
+				76C5E342218B9D3300810EE9 /* Flurry */,
 				76C5E32F218B9C7B00810EE9 /* FlurryWatch_Swift */,
 				76C5E32E218B9C7B00810EE9 /* Products */,
+				76C5E351218B9D5400810EE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +83,7 @@
 		76C5E32F218B9C7B00810EE9 /* FlurryWatch_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				76C5E358218B9DD600810EE9 /* FlurryWatch_Swift-Bridging-Header.h */,
 				76C5E330218B9C7B00810EE9 /* AppDelegate.swift */,
 				76C5E332218B9C7B00810EE9 /* ViewController.swift */,
 				76C5E334218B9C7B00810EE9 /* Main.storyboard */,
@@ -62,6 +92,32 @@
 				76C5E33C218B9C7C00810EE9 /* Info.plist */,
 			);
 			path = FlurryWatch_Swift;
+			sourceTree = "<group>";
+		};
+		76C5E342218B9D3300810EE9 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				76C5E343218B9D3300810EE9 /* Flurry.h */,
+				76C5E344218B9D3300810EE9 /* libFlurry_9.2.3.a */,
+				76C5E345218B9D3300810EE9 /* FlurryConsent.h */,
+				76C5E346218B9D3300810EE9 /* libFlurryTVOS_9.2.3.a */,
+				76C5E347218B9D3300810EE9 /* libFlurryWatch_9.2.3.a */,
+				76C5E348218B9D3300810EE9 /* FlurryEmpty.m */,
+				76C5E349218B9D3300810EE9 /* FlurryWatchEmpty.m */,
+				76C5E34A218B9D3300810EE9 /* FlurryWatch.h */,
+				76C5E34B218B9D3300810EE9 /* FlurrySessionBuilder.h */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		76C5E351218B9D5400810EE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76C5E356218B9D6100810EE9 /* CoreLocation.framework */,
+				76C5E354218B9D5B00810EE9 /* SystemConfiguration.framework */,
+				76C5E352218B9D5400810EE9 /* Security.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +191,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C5E34F218B9D3300810EE9 /* FlurryEmpty.m in Sources */,
 				76C5E333218B9C7B00810EE9 /* ViewController.swift in Sources */,
 				76C5E331218B9C7B00810EE9 /* AppDelegate.swift in Sources */,
+				76C5E350218B9D3300810EE9 /* FlurryWatchEmpty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,8 +345,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flurry",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flurry.FlurryWatch-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlurryWatch_Swift/FlurryWatch_Swift-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,8 +368,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flurry",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flurry.FlurryWatch-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlurryWatch_Swift/FlurryWatch_Swift-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
