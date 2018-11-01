@@ -13,14 +13,62 @@
 		76C5E338218B9C7C00810EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C5E337218B9C7C00810EE9 /* Assets.xcassets */; };
 		76C5E33B218B9C7C00810EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C5E339218B9C7C00810EE9 /* LaunchScreen.storyboard */; };
 		76C5E34C218B9D3300810EE9 /* libFlurry_9.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E344218B9D3300810EE9 /* libFlurry_9.2.3.a */; };
-		76C5E34D218B9D3300810EE9 /* libFlurryTVOS_9.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E346218B9D3300810EE9 /* libFlurryTVOS_9.2.3.a */; };
-		76C5E34E218B9D3300810EE9 /* libFlurryWatch_9.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E347218B9D3300810EE9 /* libFlurryWatch_9.2.3.a */; };
 		76C5E34F218B9D3300810EE9 /* FlurryEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C5E348218B9D3300810EE9 /* FlurryEmpty.m */; };
 		76C5E350218B9D3300810EE9 /* FlurryWatchEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C5E349218B9D3300810EE9 /* FlurryWatchEmpty.m */; };
 		76C5E353218B9D5400810EE9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E352218B9D5400810EE9 /* Security.framework */; };
 		76C5E355218B9D5B00810EE9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E354218B9D5B00810EE9 /* SystemConfiguration.framework */; };
 		76C5E357218B9D6100810EE9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E356218B9D6100810EE9 /* CoreLocation.framework */; };
+		76C5E35F218B9F8900810EE9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C5E35D218B9F8900810EE9 /* Interface.storyboard */; };
+		76C5E361218B9F8A00810EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C5E360218B9F8A00810EE9 /* Assets.xcassets */; };
+		76C5E368218B9F8A00810EE9 /* FWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 76C5E367218B9F8A00810EE9 /* FWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		76C5E36D218B9F8A00810EE9 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C5E36C218B9F8A00810EE9 /* InterfaceController.swift */; };
+		76C5E36F218B9F8A00810EE9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C5E36E218B9F8A00810EE9 /* ExtensionDelegate.swift */; };
+		76C5E371218B9F8A00810EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C5E370218B9F8A00810EE9 /* Assets.xcassets */; };
+		76C5E375218B9F8A00810EE9 /* FWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 76C5E35B218B9F8900810EE9 /* FWatch.app */; };
+		76C5E399218BB61F00810EE9 /* libFlurryWatch_9.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E347218B9D3300810EE9 /* libFlurryWatch_9.2.3.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76C5E369218B9F8A00810EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76C5E325218B9C7B00810EE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76C5E366218B9F8A00810EE9;
+			remoteInfo = "FWatch Extension";
+		};
+		76C5E373218B9F8A00810EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76C5E325218B9C7B00810EE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76C5E35A218B9F8900810EE9;
+			remoteInfo = FWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		76C5E379218B9F8A00810EE9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				76C5E368218B9F8A00810EE9 /* FWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C5E37D218B9F8A00810EE9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				76C5E375218B9F8A00810EE9 /* FWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		76C5E32D218B9C7B00810EE9 /* FlurryWatch_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlurryWatch_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +91,21 @@
 		76C5E354218B9D5B00810EE9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		76C5E356218B9D6100810EE9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		76C5E358218B9DD600810EE9 /* FlurryWatch_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlurryWatch_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		76C5E35B218B9F8900810EE9 /* FWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C5E35E218B9F8900810EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		76C5E360218B9F8A00810EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76C5E362218B9F8A00810EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76C5E367218B9F8A00810EE9 /* FWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C5E36C218B9F8A00810EE9 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		76C5E36E218B9F8A00810EE9 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		76C5E370218B9F8A00810EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76C5E372218B9F8A00810EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76C5E37E218BA03900810EE9 /* FWatch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FWatch-Bridging-Header.h"; sourceTree = "<group>"; };
+		76C5E37F218BA15700810EE9 /* libFlurryWatch_9.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurryWatch_9.2.3.a; path = ../../Downloads/DevPortalBuild.Release.9.2.3/Flurry/libFlurryWatch_9.2.3.a; sourceTree = "<group>"; };
+		76C5E380218BA15700810EE9 /* libFlurryTVOS_9.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurryTVOS_9.2.3.a; path = ../../Downloads/DevPortalBuild.Release.9.2.3/Flurry/libFlurryTVOS_9.2.3.a; sourceTree = "<group>"; };
+		76C5E381218BA15700810EE9 /* libFlurry_9.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_9.2.3.a; path = ../../Downloads/DevPortalBuild.Release.9.2.3/Flurry/libFlurry_9.2.3.a; sourceTree = "<group>"; };
+		76C5E388218BA2EB00810EE9 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.3.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		76C5E393218BB1E300810EE9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +116,15 @@
 				76C5E357218B9D6100810EE9 /* CoreLocation.framework in Frameworks */,
 				76C5E355218B9D5B00810EE9 /* SystemConfiguration.framework in Frameworks */,
 				76C5E353218B9D5400810EE9 /* Security.framework in Frameworks */,
-				76C5E34D218B9D3300810EE9 /* libFlurryTVOS_9.2.3.a in Frameworks */,
-				76C5E34E218B9D3300810EE9 /* libFlurryWatch_9.2.3.a in Frameworks */,
 				76C5E34C218B9D3300810EE9 /* libFlurry_9.2.3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C5E364218B9F8A00810EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C5E399218BB61F00810EE9 /* libFlurryWatch_9.2.3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +136,8 @@
 			children = (
 				76C5E342218B9D3300810EE9 /* Flurry */,
 				76C5E32F218B9C7B00810EE9 /* FlurryWatch_Swift */,
+				76C5E35C218B9F8900810EE9 /* FWatch */,
+				76C5E36B218B9F8A00810EE9 /* FWatch Extension */,
 				76C5E32E218B9C7B00810EE9 /* Products */,
 				76C5E351218B9D5400810EE9 /* Frameworks */,
 			);
@@ -76,6 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				76C5E32D218B9C7B00810EE9 /* FlurryWatch_Swift.app */,
+				76C5E35B218B9F8900810EE9 /* FWatch.app */,
+				76C5E367218B9F8A00810EE9 /* FWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,11 +186,38 @@
 		76C5E351218B9D5400810EE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				76C5E393218BB1E300810EE9 /* Security.framework */,
+				76C5E388218BA2EB00810EE9 /* WatchConnectivity.framework */,
+				76C5E381218BA15700810EE9 /* libFlurry_9.2.3.a */,
+				76C5E380218BA15700810EE9 /* libFlurryTVOS_9.2.3.a */,
+				76C5E37F218BA15700810EE9 /* libFlurryWatch_9.2.3.a */,
 				76C5E356218B9D6100810EE9 /* CoreLocation.framework */,
 				76C5E354218B9D5B00810EE9 /* SystemConfiguration.framework */,
 				76C5E352218B9D5400810EE9 /* Security.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76C5E35C218B9F8900810EE9 /* FWatch */ = {
+			isa = PBXGroup;
+			children = (
+				76C5E35D218B9F8900810EE9 /* Interface.storyboard */,
+				76C5E360218B9F8A00810EE9 /* Assets.xcassets */,
+				76C5E362218B9F8A00810EE9 /* Info.plist */,
+			);
+			path = FWatch;
+			sourceTree = "<group>";
+		};
+		76C5E36B218B9F8A00810EE9 /* FWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				76C5E36C218B9F8A00810EE9 /* InterfaceController.swift */,
+				76C5E36E218B9F8A00810EE9 /* ExtensionDelegate.swift */,
+				76C5E370218B9F8A00810EE9 /* Assets.xcassets */,
+				76C5E372218B9F8A00810EE9 /* Info.plist */,
+				76C5E37E218BA03900810EE9 /* FWatch-Bridging-Header.h */,
+			);
+			path = "FWatch Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,15 +230,51 @@
 				76C5E329218B9C7B00810EE9 /* Sources */,
 				76C5E32A218B9C7B00810EE9 /* Frameworks */,
 				76C5E32B218B9C7B00810EE9 /* Resources */,
+				76C5E37D218B9F8A00810EE9 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				76C5E374218B9F8A00810EE9 /* PBXTargetDependency */,
 			);
 			name = FlurryWatch_Swift;
 			productName = FlurryWatch_Swift;
 			productReference = 76C5E32D218B9C7B00810EE9 /* FlurryWatch_Swift.app */;
 			productType = "com.apple.product-type.application";
+		};
+		76C5E35A218B9F8900810EE9 /* FWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76C5E37A218B9F8A00810EE9 /* Build configuration list for PBXNativeTarget "FWatch" */;
+			buildPhases = (
+				76C5E359218B9F8900810EE9 /* Resources */,
+				76C5E379218B9F8A00810EE9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76C5E36A218B9F8A00810EE9 /* PBXTargetDependency */,
+			);
+			name = FWatch;
+			productName = FWatch;
+			productReference = 76C5E35B218B9F8900810EE9 /* FWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		76C5E366218B9F8A00810EE9 /* FWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76C5E376218B9F8A00810EE9 /* Build configuration list for PBXNativeTarget "FWatch Extension" */;
+			buildPhases = (
+				76C5E363218B9F8A00810EE9 /* Sources */,
+				76C5E364218B9F8A00810EE9 /* Frameworks */,
+				76C5E365218B9F8A00810EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FWatch Extension";
+			productName = "FWatch Extension";
+			productReference = 76C5E367218B9F8A00810EE9 /* FWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -151,6 +287,12 @@
 				ORGANIZATIONNAME = Flurry;
 				TargetAttributes = {
 					76C5E32C218B9C7B00810EE9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					76C5E35A218B9F8900810EE9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					76C5E366218B9F8A00810EE9 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -169,6 +311,8 @@
 			projectRoot = "";
 			targets = (
 				76C5E32C218B9C7B00810EE9 /* FlurryWatch_Swift */,
+				76C5E35A218B9F8900810EE9 /* FWatch */,
+				76C5E366218B9F8A00810EE9 /* FWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -181,6 +325,23 @@
 				76C5E33B218B9C7C00810EE9 /* LaunchScreen.storyboard in Resources */,
 				76C5E338218B9C7C00810EE9 /* Assets.xcassets in Resources */,
 				76C5E336218B9C7B00810EE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C5E359218B9F8900810EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C5E361218B9F8A00810EE9 /* Assets.xcassets in Resources */,
+				76C5E35F218B9F8900810EE9 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C5E365218B9F8A00810EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C5E371218B9F8A00810EE9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +359,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		76C5E363218B9F8A00810EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C5E36F218B9F8A00810EE9 /* ExtensionDelegate.swift in Sources */,
+				76C5E36D218B9F8A00810EE9 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76C5E36A218B9F8A00810EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76C5E366218B9F8A00810EE9 /* FWatch Extension */;
+			targetProxy = 76C5E369218B9F8A00810EE9 /* PBXContainerItemProxy */;
+		};
+		76C5E374218B9F8A00810EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76C5E35A218B9F8900810EE9 /* FWatch */;
+			targetProxy = 76C5E373218B9F8A00810EE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		76C5E334218B9C7B00810EE9 /* Main.storyboard */ = {
@@ -215,6 +398,14 @@
 				76C5E33A218B9C7C00810EE9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		76C5E35D218B9F8900810EE9 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76C5E35E218B9F8900810EE9 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -271,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +516,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -380,6 +571,99 @@
 			};
 			name = Release;
 		};
+		76C5E377218B9F8A00810EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6JSG6FHB3;
+				INFOPLIST_FILE = "FWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flurry",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flurry.FlurryWatch-Swift.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "FWatch Extension/FWatch-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		76C5E378218B9F8A00810EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6JSG6FHB3;
+				INFOPLIST_FILE = "FWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flurry",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flurry.FlurryWatch-Swift.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FWatch Extension/FWatch-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		76C5E37B218B9F8A00810EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6JSG6FHB3;
+				IBSC_MODULE = FWatch_Extension;
+				INFOPLIST_FILE = FWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flurry.FlurryWatch-Swift.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		76C5E37C218B9F8A00810EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6JSG6FHB3;
+				IBSC_MODULE = FWatch_Extension;
+				INFOPLIST_FILE = FWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flurry.FlurryWatch-Swift.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -397,6 +681,24 @@
 			buildConfigurations = (
 				76C5E340218B9C7C00810EE9 /* Debug */,
 				76C5E341218B9C7C00810EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76C5E376218B9F8A00810EE9 /* Build configuration list for PBXNativeTarget "FWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C5E377218B9F8A00810EE9 /* Debug */,
+				76C5E378218B9F8A00810EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76C5E37A218B9F8A00810EE9 /* Build configuration list for PBXNativeTarget "FWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C5E37B218B9F8A00810EE9 /* Debug */,
+				76C5E37C218B9F8A00810EE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
