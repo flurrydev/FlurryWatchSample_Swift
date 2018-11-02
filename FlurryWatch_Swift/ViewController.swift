@@ -40,9 +40,30 @@ class ViewController: UIViewController, WCSessionDelegate {
     }
     @IBAction func reset(_ sender: UIButton) {
         session?.sendMessage(["start_button_pressed" : true], replyHandler: nil, errorHandler: nil)
-        Flurry.logEvent("Timer_Reset_Pressed")
+        let status = Flurry.logEvent("Timer_Reset_Pressed")
+        print("log status : \(stringForEventRecordStatus(status: status))")
     }
     
+    func stringForEventRecordStatus(status: FlurryEventRecordStatus) -> String {
+        switch status {
+        case FlurryEventFailed:
+            return "Log Event Failed"
+        case FlurryEventRecorded:
+            return "Log Event Recorded"
+        case FlurryEventUniqueCountExceeded:
+            return "Log Event Unique Count Exceeded"
+        case FlurryEventParamsCountExceeded:
+            return "Log Event Params Count Exceeded"
+        case FlurryEventLogCountExceeded:
+            return "Log Event Count Exceeded"
+        case FlurryEventLoggingDelayed:
+            return "Log Event Delayed"
+        case FlurryEventAnalyticsDisabled:
+            return "Log Event Analytics Disabled"
+        default:
+            return "shoule not be here"
+        }
+    }
 
 }
 
