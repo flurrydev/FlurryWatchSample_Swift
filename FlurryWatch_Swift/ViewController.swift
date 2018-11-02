@@ -39,7 +39,7 @@ class ViewController: UIViewController, WCSessionDelegate {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func reset(_ sender: UIButton) {
-        session?.sendMessage(["go" : true], replyHandler: nil, errorHandler: nil)
+        session?.sendMessage(["start_button_pressed" : true], replyHandler: nil, errorHandler: nil)
         Flurry.logEvent("Timer_Reset_Pressed")
     }
     

@@ -14,7 +14,14 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="FWatch" customModuleProvider="target">
                     <items>
-                        <timer alignment="left" id="hg1-Jm-mQe"/>
+                        <label alignment="left" text="Flurry Watch" id="I4F-cU-kGu"/>
+                        <separator alignment="left" id="9mD-pn-Fdq"/>
+                        <group width="1" alignment="left" id="gK6-5A-PQy">
+                            <items>
+                                <label alignment="left" text="Timer: " id="no4-gJ-6Fe"/>
+                                <timer alignment="left" id="hg1-Jm-mQe"/>
+                            </items>
+                        </group>
                     </items>
                     <connections>
                         <outlet property="timer" destination="hg1-Jm-mQe" id="Oka-0l-ZW7"/>
