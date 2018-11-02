@@ -11,12 +11,28 @@ import Foundation
 import WatchConnectivity
 
 
-class InterfaceController: WKInterfaceController{
+class InterfaceController: WKInterfaceController, WCSessionDelegate{
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+        
+    }
+    
 
+    @IBOutlet var timer: WKInterfaceTimer!
+    var session : WCSession?
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-        
-        FlurryWatch.logWatchEvent("flurry watch event")
+        if WCSession.isSupported() {
+            session = WCSession.default
+            session?.delegate = self
+            session?.activate()
+        }
+    }
+    
+    func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
+        print (message)
+        timer.setDate(NSDate.init(timeIntervalSinceNow: 0) as Date)
+        timer.start()
+        FlurryWatch.logWatchEvent("Started_Timer_Watch")
     }
     
     override func willActivate() {
