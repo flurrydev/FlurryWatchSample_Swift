@@ -33,6 +33,6 @@
 	<key>WKExtensionDelegateClassName</key>
 	<string>$(PRODUCT_MODULE_NAME).ExtensionDelegate</string>
 	<key>Flurry Watch API Key</key>
-	<string></string>
+	<string>7XFDH8C5YN6R9KN2Z9NG</string>
 </dict>
 </plist>

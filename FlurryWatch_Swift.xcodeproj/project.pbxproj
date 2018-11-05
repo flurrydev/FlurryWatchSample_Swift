@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		764850DD2190C3CE00F51842 /* libFlurryWatch_9.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 764850D82190C3C600F51842 /* libFlurryWatch_9.2.3.a */; };
 		76C5E331218B9C7B00810EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C5E330218B9C7B00810EE9 /* AppDelegate.swift */; };
 		76C5E333218B9C7B00810EE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C5E332218B9C7B00810EE9 /* ViewController.swift */; };
 		76C5E336218B9C7B00810EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C5E334218B9C7B00810EE9 /* Main.storyboard */; };
@@ -25,7 +26,6 @@
 		76C5E36F218B9F8A00810EE9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C5E36E218B9F8A00810EE9 /* ExtensionDelegate.swift */; };
 		76C5E371218B9F8A00810EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C5E370218B9F8A00810EE9 /* Assets.xcassets */; };
 		76C5E375218B9F8A00810EE9 /* FWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 76C5E35B218B9F8900810EE9 /* FWatch.app */; };
-		76C5E399218BB61F00810EE9 /* libFlurryWatch_9.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E347218B9D3300810EE9 /* libFlurryWatch_9.2.3.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +71,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		764850D42190C3C600F51842 /* Flurry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		764850D52190C3C600F51842 /* libFlurry_9.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_9.2.3.a; sourceTree = "<group>"; };
+		764850D62190C3C600F51842 /* FlurryConsent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryConsent.h; sourceTree = "<group>"; };
+		764850D72190C3C600F51842 /* libFlurryTVOS_9.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryTVOS_9.2.3.a; sourceTree = "<group>"; };
+		764850D82190C3C600F51842 /* libFlurryWatch_9.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryWatch_9.2.3.a; sourceTree = "<group>"; };
+		764850D92190C3C600F51842 /* FlurryEmpty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlurryEmpty.m; sourceTree = "<group>"; };
+		764850DA2190C3C600F51842 /* FlurryWatchEmpty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlurryWatchEmpty.m; sourceTree = "<group>"; };
+		764850DB2190C3C600F51842 /* FlurryWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryWatch.h; sourceTree = "<group>"; };
+		764850DC2190C3C600F51842 /* FlurrySessionBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurrySessionBuilder.h; sourceTree = "<group>"; };
 		76C5E32D218B9C7B00810EE9 /* FlurryWatch_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlurryWatch_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C5E330218B9C7B00810EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76C5E332218B9C7B00810EE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,13 +133,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76C5E399218BB61F00810EE9 /* libFlurryWatch_9.2.3.a in Frameworks */,
+				764850DD2190C3CE00F51842 /* libFlurryWatch_9.2.3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		764850D32190C3C600F51842 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				764850D42190C3C600F51842 /* Flurry.h */,
+				764850D52190C3C600F51842 /* libFlurry_9.2.3.a */,
+				764850D62190C3C600F51842 /* FlurryConsent.h */,
+				764850D72190C3C600F51842 /* libFlurryTVOS_9.2.3.a */,
+				764850D82190C3C600F51842 /* libFlurryWatch_9.2.3.a */,
+				764850D92190C3C600F51842 /* FlurryEmpty.m */,
+				764850DA2190C3C600F51842 /* FlurryWatchEmpty.m */,
+				764850DB2190C3C600F51842 /* FlurryWatch.h */,
+				764850DC2190C3C600F51842 /* FlurrySessionBuilder.h */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
 		76C5E324218B9C7B00810EE9 = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +211,7 @@
 		76C5E351218B9D5400810EE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				764850D32190C3C600F51842 /* Flurry */,
 				76C5E393218BB1E300810EE9 /* Security.framework */,
 				76C5E388218BA2EB00810EE9 /* WatchConnectivity.framework */,
 				76C5E381218BA15700810EE9 /* libFlurry_9.2.3.a */,

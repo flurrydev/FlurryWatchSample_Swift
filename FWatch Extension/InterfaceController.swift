@@ -32,8 +32,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate{
         print (message)
         timer.setDate(NSDate.init(timeIntervalSinceNow: 0) as Date)
         timer.start()
-        let status = Flurry.logEvent("Started_Timed_Watch")
-        print("log status : \(stringForEventRecordStatus(status: status))")
+       FlurryWatch.logWatchEvent("Start Timer")
     }
     
     override func willActivate() {
@@ -45,26 +44,6 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate{
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
-    
-    func stringForEventRecordStatus(status: FlurryEventRecordStatus) -> String {
-        switch status {
-        case FlurryEventFailed:
-            return "Log Event Failed"
-        case FlurryEventRecorded:
-            return "Log Event Recorded"
-        case FlurryEventUniqueCountExceeded:
-            return "Log Event Unique Count Exceeded"
-        case FlurryEventParamsCountExceeded:
-            return "Log Event Params Count Exceeded"
-        case FlurryEventLogCountExceeded:
-            return "Log Event Count Exceeded"
-        case FlurryEventLoggingDelayed:
-            return "Log Event Delayed"
-        case FlurryEventAnalyticsDisabled:
-            return "Log Event Analytics Disabled"
-        default:
-            return "shoule not be here"
-        }
-    }
+
 
 }
