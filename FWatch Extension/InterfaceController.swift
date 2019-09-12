@@ -9,6 +9,7 @@
 import WatchKit
 import Foundation
 import WatchConnectivity
+import Flurry_iOS_SDK
 
 
 class InterfaceController: WKInterfaceController, WCSessionDelegate{

@@ -8,6 +8,7 @@
 
 import UIKit
 import WatchConnectivity
+import Flurry_iOS_SDK
 
 class ViewController: UIViewController, WCSessionDelegate {
     func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {

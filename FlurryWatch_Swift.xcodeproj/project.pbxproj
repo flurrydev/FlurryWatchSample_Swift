@@ -3,19 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		764850DD2190C3CE00F51842 /* libFlurryWatch_9.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 764850D82190C3C600F51842 /* libFlurryWatch_9.2.3.a */; };
+		3D5E037F708611DB9D3D583A /* Pods_FlurryWatch_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2748F71BE8896191B7C97B7D /* Pods_FlurryWatch_Swift.framework */; };
 		76C5E331218B9C7B00810EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C5E330218B9C7B00810EE9 /* AppDelegate.swift */; };
 		76C5E333218B9C7B00810EE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C5E332218B9C7B00810EE9 /* ViewController.swift */; };
 		76C5E336218B9C7B00810EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C5E334218B9C7B00810EE9 /* Main.storyboard */; };
 		76C5E338218B9C7C00810EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C5E337218B9C7C00810EE9 /* Assets.xcassets */; };
 		76C5E33B218B9C7C00810EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C5E339218B9C7C00810EE9 /* LaunchScreen.storyboard */; };
-		76C5E34C218B9D3300810EE9 /* libFlurry_9.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E344218B9D3300810EE9 /* libFlurry_9.2.3.a */; };
-		76C5E34F218B9D3300810EE9 /* FlurryEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C5E348218B9D3300810EE9 /* FlurryEmpty.m */; };
-		76C5E350218B9D3300810EE9 /* FlurryWatchEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C5E349218B9D3300810EE9 /* FlurryWatchEmpty.m */; };
 		76C5E353218B9D5400810EE9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E352218B9D5400810EE9 /* Security.framework */; };
 		76C5E355218B9D5B00810EE9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E354218B9D5B00810EE9 /* SystemConfiguration.framework */; };
 		76C5E357218B9D6100810EE9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5E356218B9D6100810EE9 /* CoreLocation.framework */; };
@@ -26,6 +23,8 @@
 		76C5E36F218B9F8A00810EE9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C5E36E218B9F8A00810EE9 /* ExtensionDelegate.swift */; };
 		76C5E371218B9F8A00810EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C5E370218B9F8A00810EE9 /* Assets.xcassets */; };
 		76C5E375218B9F8A00810EE9 /* FWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 76C5E35B218B9F8900810EE9 /* FWatch.app */; };
+		98CA317B6B25FA7664B5E70D /* Pods_FWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A5614BB797371B0A2953C3 /* Pods_FWatch.framework */; };
+		BA22347E794CAA934AE2FC19 /* Pods_FWatch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C018D84CA0C5B827E3CF10 /* Pods_FWatch_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +70,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0303BD6372AA8A1B9461C8FE /* Pods-FWatch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWatch Extension.release.xcconfig"; path = "Target Support Files/Pods-FWatch Extension/Pods-FWatch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		2748F71BE8896191B7C97B7D /* Pods_FlurryWatch_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlurryWatch_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		384B656CC39A563178C45827 /* Pods-FWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWatch.debug.xcconfig"; path = "Target Support Files/Pods-FWatch/Pods-FWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		39221864A41F77E706873300 /* Pods-FWatch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWatch Extension.debug.xcconfig"; path = "Target Support Files/Pods-FWatch Extension/Pods-FWatch Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		65C018D84CA0C5B827E3CF10 /* Pods_FWatch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FWatch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		764850D42190C3C600F51842 /* Flurry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		764850D52190C3C600F51842 /* libFlurry_9.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_9.2.3.a; sourceTree = "<group>"; };
 		764850D62190C3C600F51842 /* FlurryConsent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryConsent.h; sourceTree = "<group>"; };
@@ -87,19 +91,9 @@
 		76C5E337218B9C7C00810EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76C5E33A218B9C7C00810EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76C5E33C218B9C7C00810EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76C5E343218B9D3300810EE9 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
-		76C5E344218B9D3300810EE9 /* libFlurry_9.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_9.2.3.a; sourceTree = "<group>"; };
-		76C5E345218B9D3300810EE9 /* FlurryConsent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryConsent.h; sourceTree = "<group>"; };
-		76C5E346218B9D3300810EE9 /* libFlurryTVOS_9.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryTVOS_9.2.3.a; sourceTree = "<group>"; };
-		76C5E347218B9D3300810EE9 /* libFlurryWatch_9.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryWatch_9.2.3.a; sourceTree = "<group>"; };
-		76C5E348218B9D3300810EE9 /* FlurryEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlurryEmpty.m; sourceTree = "<group>"; };
-		76C5E349218B9D3300810EE9 /* FlurryWatchEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlurryWatchEmpty.m; sourceTree = "<group>"; };
-		76C5E34A218B9D3300810EE9 /* FlurryWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryWatch.h; sourceTree = "<group>"; };
-		76C5E34B218B9D3300810EE9 /* FlurrySessionBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurrySessionBuilder.h; sourceTree = "<group>"; };
 		76C5E352218B9D5400810EE9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		76C5E354218B9D5B00810EE9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		76C5E356218B9D6100810EE9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		76C5E358218B9DD600810EE9 /* FlurryWatch_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlurryWatch_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		76C5E35B218B9F8900810EE9 /* FWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C5E35E218B9F8900810EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		76C5E360218B9F8A00810EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,12 +103,12 @@
 		76C5E36E218B9F8A00810EE9 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		76C5E370218B9F8A00810EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76C5E372218B9F8A00810EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76C5E37E218BA03900810EE9 /* FWatch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FWatch-Bridging-Header.h"; sourceTree = "<group>"; };
-		76C5E37F218BA15700810EE9 /* libFlurryWatch_9.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurryWatch_9.2.3.a; path = ../../Downloads/DevPortalBuild.Release.9.2.3/Flurry/libFlurryWatch_9.2.3.a; sourceTree = "<group>"; };
-		76C5E380218BA15700810EE9 /* libFlurryTVOS_9.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurryTVOS_9.2.3.a; path = ../../Downloads/DevPortalBuild.Release.9.2.3/Flurry/libFlurryTVOS_9.2.3.a; sourceTree = "<group>"; };
-		76C5E381218BA15700810EE9 /* libFlurry_9.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_9.2.3.a; path = ../../Downloads/DevPortalBuild.Release.9.2.3/Flurry/libFlurry_9.2.3.a; sourceTree = "<group>"; };
 		76C5E388218BA2EB00810EE9 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.3.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
 		76C5E393218BB1E300810EE9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		9A32619A6746FE2FEE50DC39 /* Pods-FWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWatch.release.xcconfig"; path = "Target Support Files/Pods-FWatch/Pods-FWatch.release.xcconfig"; sourceTree = "<group>"; };
+		B4B13A46344948A3CB85276F /* Pods-FlurryWatch_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlurryWatch_Swift.debug.xcconfig"; path = "Target Support Files/Pods-FlurryWatch_Swift/Pods-FlurryWatch_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		C92A2A064000BC4AEBA2ECEF /* Pods-FlurryWatch_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlurryWatch_Swift.release.xcconfig"; path = "Target Support Files/Pods-FlurryWatch_Swift/Pods-FlurryWatch_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		E9A5614BB797371B0A2953C3 /* Pods_FWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +119,7 @@
 				76C5E357218B9D6100810EE9 /* CoreLocation.framework in Frameworks */,
 				76C5E355218B9D5B00810EE9 /* SystemConfiguration.framework in Frameworks */,
 				76C5E353218B9D5400810EE9 /* Security.framework in Frameworks */,
-				76C5E34C218B9D3300810EE9 /* libFlurry_9.2.3.a in Frameworks */,
+				3D5E037F708611DB9D3D583A /* Pods_FlurryWatch_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +127,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				764850DD2190C3CE00F51842 /* libFlurryWatch_9.2.3.a in Frameworks */,
+				BA22347E794CAA934AE2FC19 /* Pods_FWatch_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A268EDDF951C6E112FEF209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CA317B6B25FA7664B5E70D /* Pods_FWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,12 +161,12 @@
 		76C5E324218B9C7B00810EE9 = {
 			isa = PBXGroup;
 			children = (
-				76C5E342218B9D3300810EE9 /* Flurry */,
 				76C5E32F218B9C7B00810EE9 /* FlurryWatch_Swift */,
 				76C5E35C218B9F8900810EE9 /* FWatch */,
 				76C5E36B218B9F8A00810EE9 /* FWatch Extension */,
 				76C5E32E218B9C7B00810EE9 /* Products */,
 				76C5E351218B9D5400810EE9 /* Frameworks */,
+				AC5381A18B1A293487340CF9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,7 +183,6 @@
 		76C5E32F218B9C7B00810EE9 /* FlurryWatch_Swift */ = {
 			isa = PBXGroup;
 			children = (
-				76C5E358218B9DD600810EE9 /* FlurryWatch_Swift-Bridging-Header.h */,
 				76C5E330218B9C7B00810EE9 /* AppDelegate.swift */,
 				76C5E332218B9C7B00810EE9 /* ViewController.swift */,
 				76C5E334218B9C7B00810EE9 /* Main.storyboard */,
@@ -192,34 +193,18 @@
 			path = FlurryWatch_Swift;
 			sourceTree = "<group>";
 		};
-		76C5E342218B9D3300810EE9 /* Flurry */ = {
-			isa = PBXGroup;
-			children = (
-				76C5E343218B9D3300810EE9 /* Flurry.h */,
-				76C5E344218B9D3300810EE9 /* libFlurry_9.2.3.a */,
-				76C5E345218B9D3300810EE9 /* FlurryConsent.h */,
-				76C5E346218B9D3300810EE9 /* libFlurryTVOS_9.2.3.a */,
-				76C5E347218B9D3300810EE9 /* libFlurryWatch_9.2.3.a */,
-				76C5E348218B9D3300810EE9 /* FlurryEmpty.m */,
-				76C5E349218B9D3300810EE9 /* FlurryWatchEmpty.m */,
-				76C5E34A218B9D3300810EE9 /* FlurryWatch.h */,
-				76C5E34B218B9D3300810EE9 /* FlurrySessionBuilder.h */,
-			);
-			path = Flurry;
-			sourceTree = "<group>";
-		};
 		76C5E351218B9D5400810EE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				764850D32190C3C600F51842 /* Flurry */,
 				76C5E393218BB1E300810EE9 /* Security.framework */,
 				76C5E388218BA2EB00810EE9 /* WatchConnectivity.framework */,
-				76C5E381218BA15700810EE9 /* libFlurry_9.2.3.a */,
-				76C5E380218BA15700810EE9 /* libFlurryTVOS_9.2.3.a */,
-				76C5E37F218BA15700810EE9 /* libFlurryWatch_9.2.3.a */,
 				76C5E356218B9D6100810EE9 /* CoreLocation.framework */,
 				76C5E354218B9D5B00810EE9 /* SystemConfiguration.framework */,
 				76C5E352218B9D5400810EE9 /* Security.framework */,
+				E9A5614BB797371B0A2953C3 /* Pods_FWatch.framework */,
+				65C018D84CA0C5B827E3CF10 /* Pods_FWatch_Extension.framework */,
+				2748F71BE8896191B7C97B7D /* Pods_FlurryWatch_Swift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -241,9 +226,21 @@
 				76C5E36E218B9F8A00810EE9 /* ExtensionDelegate.swift */,
 				76C5E370218B9F8A00810EE9 /* Assets.xcassets */,
 				76C5E372218B9F8A00810EE9 /* Info.plist */,
-				76C5E37E218BA03900810EE9 /* FWatch-Bridging-Header.h */,
 			);
 			path = "FWatch Extension";
+			sourceTree = "<group>";
+		};
+		AC5381A18B1A293487340CF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				384B656CC39A563178C45827 /* Pods-FWatch.debug.xcconfig */,
+				9A32619A6746FE2FEE50DC39 /* Pods-FWatch.release.xcconfig */,
+				39221864A41F77E706873300 /* Pods-FWatch Extension.debug.xcconfig */,
+				0303BD6372AA8A1B9461C8FE /* Pods-FWatch Extension.release.xcconfig */,
+				B4B13A46344948A3CB85276F /* Pods-FlurryWatch_Swift.debug.xcconfig */,
+				C92A2A064000BC4AEBA2ECEF /* Pods-FlurryWatch_Swift.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,10 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76C5E33F218B9C7C00810EE9 /* Build configuration list for PBXNativeTarget "FlurryWatch_Swift" */;
 			buildPhases = (
+				62C1C5D3AB7D8C4809F3B699 /* [CP] Check Pods Manifest.lock */,
 				76C5E329218B9C7B00810EE9 /* Sources */,
 				76C5E32A218B9C7B00810EE9 /* Frameworks */,
 				76C5E32B218B9C7B00810EE9 /* Resources */,
 				76C5E37D218B9F8A00810EE9 /* Embed Watch Content */,
+				31136040034780CC52A535E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,8 +271,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76C5E37A218B9F8A00810EE9 /* Build configuration list for PBXNativeTarget "FWatch" */;
 			buildPhases = (
+				E9B7929B13EB669A65DD8511 /* [CP] Check Pods Manifest.lock */,
 				76C5E359218B9F8900810EE9 /* Resources */,
 				76C5E379218B9F8A00810EE9 /* Embed App Extensions */,
+				8A268EDDF951C6E112FEF209 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76C5E376218B9F8A00810EE9 /* Build configuration list for PBXNativeTarget "FWatch Extension" */;
 			buildPhases = (
+				7A8BF33B3DD749AA32024D60 /* [CP] Check Pods Manifest.lock */,
 				76C5E363218B9F8A00810EE9 /* Sources */,
 				76C5E364218B9F8A00810EE9 /* Frameworks */,
 				76C5E365218B9F8A00810EE9 /* Resources */,
+				3325857CE71DE79082E67E20 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -373,15 +376,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31136040034780CC52A535E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlurryWatch_Swift/Pods-FlurryWatch_Swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlurryWatch_Swift/Pods-FlurryWatch_Swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlurryWatch_Swift/Pods-FlurryWatch_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3325857CE71DE79082E67E20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FWatch Extension/Pods-FWatch Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FWatch Extension/Pods-FWatch Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FWatch Extension/Pods-FWatch Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62C1C5D3AB7D8C4809F3B699 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlurryWatch_Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A8BF33B3DD749AA32024D60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FWatch Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9B7929B13EB669A65DD8511 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FWatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		76C5E329218B9C7B00810EE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76C5E34F218B9D3300810EE9 /* FlurryEmpty.m in Sources */,
 				76C5E333218B9C7B00810EE9 /* ViewController.swift in Sources */,
 				76C5E331218B9C7B00810EE9 /* AppDelegate.swift in Sources */,
-				76C5E350218B9D3300810EE9 /* FlurryWatchEmpty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,8 +657,10 @@
 		};
 		76C5E340218B9C7C00810EE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4B13A46344948A3CB85276F /* Pods-FlurryWatch_Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S6JSG6FHB3;
 				INFOPLIST_FILE = FlurryWatch_Swift/Info.plist;
@@ -568,16 +674,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flurry.FlurryWatch-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "FlurryWatch_Swift/FlurryWatch_Swift-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		76C5E341218B9C7C00810EE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92A2A064000BC4AEBA2ECEF /* Pods-FlurryWatch_Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S6JSG6FHB3;
 				INFOPLIST_FILE = FlurryWatch_Swift/Info.plist;
@@ -591,14 +701,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flurry.FlurryWatch-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "FlurryWatch_Swift/FlurryWatch_Swift-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		76C5E377218B9F8A00810EE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39221864A41F77E706873300 /* Pods-FWatch Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -618,7 +731,9 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_BRIDGING_HEADER = "FWatch Extension/FWatch-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 4.3;
@@ -627,6 +742,7 @@
 		};
 		76C5E378218B9F8A00810EE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0303BD6372AA8A1B9461C8FE /* Pods-FWatch Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -645,7 +761,9 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "FWatch Extension/FWatch-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 4.3;
@@ -654,9 +772,11 @@
 		};
 		76C5E37B218B9F8A00810EE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384B656CC39A563178C45827 /* Pods-FWatch.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S6JSG6FHB3;
 				IBSC_MODULE = FWatch_Extension;
@@ -673,9 +793,11 @@
 		};
 		76C5E37C218B9F8A00810EE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A32619A6746FE2FEE50DC39 /* Pods-FWatch.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S6JSG6FHB3;
 				IBSC_MODULE = FWatch_Extension;
