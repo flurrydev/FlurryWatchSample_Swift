@@ -6,4 +6,4 @@ For detailed integration instructions refer to [Flurry documentation](https://de
 
 Steps to run the Watch integration sample code:
 1) After cloning the repo run 'pod install' in the project directory.
-2) Launch the FlurryWatch scheme to a paired iPhone/Watch or paired simulator.
+2) Launch the FWatch scheme to a paired iPhone/Watch or paired simulator.
