@@ -1,6 +1,6 @@
 PODS:
-  - Flurry-iOS-SDK/FlurrySDK (9.3.1)
-  - Flurry-iOS-SDK/FlurryWatchOSSDK (9.3.1)
+  - Flurry-iOS-SDK/FlurrySDK (10.0.0)
+  - Flurry-iOS-SDK/FlurryWatchOSSDK (10.0.0)
 
 DEPENDENCIES:
   - Flurry-iOS-SDK/FlurrySDK
@@ -11,7 +11,7 @@ SPEC REPOS:
     - Flurry-iOS-SDK
 
 SPEC CHECKSUMS:
-  Flurry-iOS-SDK: 5d782d740c5e95389c327d38245b3db4bb471fd7
+  Flurry-iOS-SDK: 8e3d258a4b8660050ceed56953db411fca34a911
 
 PODFILE CHECKSUM: a6ffcc0e923ca05ff5d778563e33870fc93ac539
 
