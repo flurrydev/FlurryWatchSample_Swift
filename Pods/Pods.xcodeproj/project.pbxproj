@@ -7,35 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08AFFC619C11B084B782F7E2D5AAD3B5 /* Flurry-iOS-SDK-FlurryWatchOSSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9841B5F8CC1ED2643285ADEFC0C5DAD6 /* Flurry-iOS-SDK-FlurryWatchOSSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		095D0C05355CABC79C0417A7F8DB5BC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A228DC720DC1C81D7DBDD022313F13 /* Foundation.framework */; };
-		0AFEF4026E94B81161378734C4D186DE /* FlurryConsent.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F9F45F8CC203A956D614A2B8410B8E /* FlurryConsent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23657B17031CCC83D68EADB0B5AE1D67 /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFA828687C4AB797E5CCC8A2E6CCF67 /* Flurry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AD690FA12E07C34A7B63C8DFBF51DD4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE830B17B067187C830DEB38CCD9354 /* Security.framework */; };
-		2F895EBA4B663576FB3B2A982C5F77AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A228DC720DC1C81D7DBDD022313F13 /* Foundation.framework */; };
-		3AF8A4783D023399F04CA512380AE800 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED05B5FED449978F091B657C16D2A81B /* WatchKit.framework */; };
-		3EFC6F4965AD94BECCC242542B20EA49 /* Flurry-iOS-SDK-FlurrySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B909AC732D74B46FDA0B343238491C99 /* Flurry-iOS-SDK-FlurrySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C42E6B0DC12E4194BC6A6762329B038 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEA85170E7083547679202E23B8D57F /* UIKit.framework */; };
-		4EA14E2296F421DD28B792A728ADE3A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82C56AA8286A2C82C4B9EFF1C117C00 /* Foundation.framework */; };
-		52904F2B514A953A3B5A75308302B39C /* Flurry-iOS-SDK-FlurryWatchOSSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E375FC2486B903D41A36473A45151 /* Flurry-iOS-SDK-FlurryWatchOSSDK-dummy.m */; };
-		54B8DB6FFD2A79C539730356B350FE01 /* FlurryConsent.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F9F45F8CC203A956D614A2B8410B8E /* FlurryConsent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D0E3CFCE3C02243901BCA17BF8DE72E /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 402BC3F142C534F93852C9D2B0F7D55E /* WatchConnectivity.framework */; };
-		5F05204C3338F002DB7BBB736DE77C26 /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFA828687C4AB797E5CCC8A2E6CCF67 /* Flurry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		095D0C05355CABC79C0417A7F8DB5BC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CA6009FBF19EF3C6DF751BCCBEAAF8 /* Foundation.framework */; };
+		1DC6F5BC2A7B371573E3403F1C7C51BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B866C918DA2E0009FD907E1E75622BD /* UIKit.framework */; };
+		2F895EBA4B663576FB3B2A982C5F77AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CA6009FBF19EF3C6DF751BCCBEAAF8 /* Foundation.framework */; };
+		4EA14E2296F421DD28B792A728ADE3A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6C5281BABBF31FFCAD1129723C33DD /* Foundation.framework */; };
+		58141015895B32F4F6460D64EAF597EA /* FlurrySessionBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD1F569E4ED5B2888F2CF4E0BB832E4 /* FlurrySessionBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AF92FEFAD920E239B5946C5A8C99E96 /* FlurryEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1EB6F8E237E2CD42043937383B117F /* FlurryEmpty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5F19D17FCA64B74A7E86FD2BCFF8BD0D /* Pods-FWatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23895776BBB310C46571320045997392 /* Pods-FWatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A66223FFFE7886D32FDF027071F977F /* Pods-FWatch Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D415BE8DE76F8D1B1370650360E14D4 /* Pods-FWatch Extension-dummy.m */; };
-		716BD0406C2E9C0D253A2C331C90473F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CBDD038BAE404FB0A3584A27514F1EB /* SystemConfiguration.framework */; };
-		7465EAD55BC29840297F3DF4F7C6378B /* FlurryWatchEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9498C384CB6F307796F4A47BC6912B08 /* FlurryWatchEmpty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6D3F5961F2D61CDCE45EE8DA25744F09 /* FlurryUserProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CA8A9BA2C834013C524AF451CADCA2 /* FlurryUserProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E0B4AE48C0B03D8041DF2C5348C435D /* FlurryCCPA.h in Headers */ = {isa = PBXBuildFile; fileRef = B8702111305999207A6E674A39956AAC /* FlurryCCPA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		833767C457F4D0AA565A790D5C8BC16A /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A16F804639B068B2051113C5FBD4CC /* Flurry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85814141BD387F39A4A50024A004FDB2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2960D39D7DABDD2B7A759446932B734E /* Security.framework */; };
+		87971C0D7BCAE21F7C4B5C2A7B547BFC /* FlurryWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = ED0936C7EB771D8CC5120695F208C756 /* FlurryWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BA34FBC58EF523082A87BAAE8AFFCFE /* Pods-FlurryWatch_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 946A2DED686B065B1DF17002BE8B9F89 /* Pods-FlurryWatch_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A123018C6D5255853A71982EF5354FAE /* FlurryEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BB54346E2D6D4630A90A2C8672BC87 /* FlurryEmpty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B0CBDA5D4415DD50AFFD27ED735D0920 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A228DC720DC1C81D7DBDD022313F13 /* Foundation.framework */; };
-		B40EC64FF747FC28105BE9C1ECE7CBBA /* FlurrySessionBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E0BDB79CF34C0BA0B628221DEC837F0 /* FlurrySessionBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		912B152573AE77A6D68FD50A36FB586E /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B79721E69726B2DB98A35773278B6DD /* WatchConnectivity.framework */; };
+		921A6F69613913A84FC7C76401954D59 /* Flurry-iOS-SDK-FlurrySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3ECC2277103B0F7DE887E1753A4EF3 /* Flurry-iOS-SDK-FlurrySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A90F455BC5A7F1490CF706D7092A121 /* FlurryConsent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2B36AB89DF49DF891AEFA21364B344 /* FlurryConsent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EC9BE82543E9BD40C7FC458CCA9C8EC /* FlurrySessionBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD1F569E4ED5B2888F2CF4E0BB832E4 /* FlurrySessionBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B125362C7036FC450DFD023E7AE9820F /* Flurry-iOS-SDK-FlurrySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9D7D9CB64E7400F8AC1F7C2007799E /* Flurry-iOS-SDK-FlurrySDK-dummy.m */; };
 		B6FCD626B609D685EA9EDC86DAC1603A /* Pods-FWatch Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23FDE042ECAA584D8FCA1AAB4E87CC71 /* Pods-FWatch Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7F817FCA0432BB51783A8AE728F0799 /* FlurrySessionBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E0BDB79CF34C0BA0B628221DEC837F0 /* FlurrySessionBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B854F77507D5491A95B1A27C1EE72A56 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE36AD8D2F8FD39211B276BDE8A6DB4 /* SystemConfiguration.framework */; };
 		B946A9250D9BBEDDF140AFF3FECBB461 /* Pods-FWatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E4273AB2692DDB9AFE633447F9F484 /* Pods-FWatch-dummy.m */; };
-		C95F3848FC98A26863A5BDF629E59E59 /* FlurryWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 403DC1B3D746A8E543A541B98C61CEC3 /* FlurryWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB17F1A524BDC3BB5ECA60DEADA62314 /* FlurryUserProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CA8A9BA2C834013C524AF451CADCA2 /* FlurryUserProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEE7BB9F75DBFA612D2B2BF50E5F6426 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6C5281BABBF31FFCAD1129723C33DD /* Foundation.framework */; };
+		CD67C390C3FE062977C3158609C17597 /* FlurryWatchEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCAE2A994CA5D8461ECD246EF08029 /* FlurryWatchEmpty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D73F3F9F4AC4C5D48B7646291C566C10 /* Flurry-iOS-SDK-FlurryWatchOSSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B393D629EDD42EA3E794EDA8529B86C /* Flurry-iOS-SDK-FlurryWatchOSSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D86D6D8A00072EE69AC72C23EBF4EB24 /* FlurryConsent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2B36AB89DF49DF891AEFA21364B344 /* FlurryConsent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E18107D083492C4A11415AE98AE1DEA6 /* Pods-FlurryWatch_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2AEAC56F0758DB33A8C207D0E74A01 /* Pods-FlurryWatch_Swift-dummy.m */; };
-		E9C81D743DA8CB649DAF56D0DA53AC30 /* Flurry-iOS-SDK-FlurrySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 581FE5AA0E7C57ABCA63693053F890A1 /* Flurry-iOS-SDK-FlurrySDK-dummy.m */; };
-		F8BDC3D8F6B42DD5D6F33A2F0A1A6B9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82C56AA8286A2C82C4B9EFF1C117C00 /* Foundation.framework */; };
+		E5407D2DDA15FEB7C324A8EDFC5E3D21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CA6009FBF19EF3C6DF751BCCBEAAF8 /* Foundation.framework */; };
+		E8888EFD96FE5FE82145408EE6A4A98B /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A16F804639B068B2051113C5FBD4CC /* Flurry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F32A859459CA35E2C790D71C5BCD505C /* FlurryCCPA.h in Headers */ = {isa = PBXBuildFile; fileRef = B8702111305999207A6E674A39956AAC /* FlurryCCPA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC793351D5DFFCB812D7A3D4172E12C4 /* Flurry-iOS-SDK-FlurryWatchOSSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A57A746A3B47CD3C58BAA053939B4B8 /* Flurry-iOS-SDK-FlurryWatchOSSDK-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,85 +60,85 @@
 
 /* Begin PBXFileReference section */
 		0B4E5AE15A3D871A2744BAF95464859F /* Pods-FWatch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FWatch.modulemap"; sourceTree = "<group>"; };
+		0B6C5281BABBF31FFCAD1129723C33DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		0C7BD4CD8BBE9B4717620A3642F2594C /* Pods-FlurryWatch_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlurryWatch_Swift.modulemap"; sourceTree = "<group>"; };
-		1A319A229C48FD2CC838EAFCF3910ACF /* Flurry-iOS-SDK-FlurryWatchOSSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Flurry-iOS-SDK-FlurryWatchOSSDK-prefix.pch"; path = "../Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK-prefix.pch"; sourceTree = "<group>"; };
+		0DFCAE2A994CA5D8461ECD246EF08029 /* FlurryWatchEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlurryWatchEmpty.m; path = Flurry/FlurryWatchEmpty.m; sourceTree = "<group>"; };
 		211AD02F53885F7BAB28D75EBB607DC0 /* Pods-FWatch Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FWatch Extension.modulemap"; sourceTree = "<group>"; };
 		23895776BBB310C46571320045997392 /* Pods-FWatch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FWatch-umbrella.h"; sourceTree = "<group>"; };
 		23FDE042ECAA584D8FCA1AAB4E87CC71 /* Pods-FWatch Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FWatch Extension-umbrella.h"; sourceTree = "<group>"; };
 		25503E69627679445A165A887341EC35 /* Pods-FlurryWatch_Swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlurryWatch_Swift-acknowledgements.plist"; sourceTree = "<group>"; };
-		286F4EC9F19AFD202490932765FEF8A8 /* Flurry-iOS-SDK-FlurryWatchOSSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Flurry-iOS-SDK-FlurryWatchOSSDK-Info.plist"; path = "../Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK-Info.plist"; sourceTree = "<group>"; };
+		27F75E330007262F6A24D9BAA2A23704 /* Flurry-iOS-SDK-FlurryWatchOSSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Flurry-iOS-SDK-FlurryWatchOSSDK-Info.plist"; path = "../Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK-Info.plist"; sourceTree = "<group>"; };
+		28CA6009FBF19EF3C6DF751BCCBEAAF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2960D39D7DABDD2B7A759446932B734E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		2B393D629EDD42EA3E794EDA8529B86C /* Flurry-iOS-SDK-FlurryWatchOSSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Flurry-iOS-SDK-FlurryWatchOSSDK-umbrella.h"; path = "../Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK-umbrella.h"; sourceTree = "<group>"; };
+		32B06A1CD701F48C5CB1C519D6F64157 /* Flurry-iOS-SDK-FlurryWatchOSSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Flurry-iOS-SDK-FlurryWatchOSSDK.modulemap"; path = "../Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK.modulemap"; sourceTree = "<group>"; };
 		3538785DE5C283D6FD1B375876AF0E03 /* Pods-FlurryWatch_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlurryWatch_Swift.debug.xcconfig"; sourceTree = "<group>"; };
-		402BC3F142C534F93852C9D2B0F7D55E /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
-		403DC1B3D746A8E543A541B98C61CEC3 /* FlurryWatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryWatch.h; path = Flurry/FlurryWatch.h; sourceTree = "<group>"; };
-		484927AD3DE4C37FF645DAF74F0D0D59 /* libFlurry_10.0.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurry_10.0.0.a; path = Flurry/libFlurry_10.0.0.a; sourceTree = "<group>"; };
+		3AFF9D0F5725AEBB2380A2425C37CE1E /* libFlurry_10.2.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurry_10.2.0.a; path = Flurry/libFlurry_10.2.0.a; sourceTree = "<group>"; };
 		49687AD733B53388AFA951C6A8D8BF63 /* Pods_FWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FWatch.framework; path = "Pods-FWatch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D415BE8DE76F8D1B1370650360E14D4 /* Pods-FWatch Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FWatch Extension-dummy.m"; sourceTree = "<group>"; };
 		4F09EF081E4A819131FCAE01EAB799D4 /* Pods-FWatch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWatch Extension.release.xcconfig"; sourceTree = "<group>"; };
 		4F17F446B544C176BB0F0D08A98A55A2 /* Pods-FWatch Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FWatch Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52DF3FDF5F4728528C13C2CD214E400A /* Flurry-iOS-SDK-FlurryWatchOSSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Flurry-iOS-SDK-FlurryWatchOSSDK-prefix.pch"; path = "../Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK-prefix.pch"; sourceTree = "<group>"; };
 		52E4273AB2692DDB9AFE633447F9F484 /* Pods-FWatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FWatch-dummy.m"; sourceTree = "<group>"; };
 		5352DA930128E1EFD2ECD799A2802251 /* Pods-FWatch Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FWatch Extension-frameworks.sh"; sourceTree = "<group>"; };
-		5456D39C5C615DC5D7CD255A2D9241BC /* Flurry-iOS-SDK-FlurrySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Flurry-iOS-SDK-FlurrySDK.xcconfig"; sourceTree = "<group>"; };
-		581FE5AA0E7C57ABCA63693053F890A1 /* Flurry-iOS-SDK-FlurrySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Flurry-iOS-SDK-FlurrySDK-dummy.m"; sourceTree = "<group>"; };
-		5A6F925915C519AE424B37D38AF5AC3D /* Flurry-iOS-SDK-FlurrySDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Flurry-iOS-SDK-FlurrySDK-Info.plist"; sourceTree = "<group>"; };
 		5B2D8A47D8F33FDCD7E2DBF022C79910 /* Pods-FWatch Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FWatch Extension-Info.plist"; sourceTree = "<group>"; };
-		5CBDD038BAE404FB0A3584A27514F1EB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		5C2B36AB89DF49DF891AEFA21364B344 /* FlurryConsent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryConsent.h; path = Flurry/FlurryConsent.h; sourceTree = "<group>"; };
 		63629858755691B9B827581FDD096CE9 /* Flurry_iOS_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Flurry_iOS_SDK.framework; path = "Flurry-iOS-SDK-FlurrySDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		651EEF2BE6D841ED15353B409F57DF86 /* Pods-FlurryWatch_Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlurryWatch_Swift-Info.plist"; sourceTree = "<group>"; };
+		6B866C918DA2E0009FD907E1E75622BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7212DECCBCE06F7D66258A85021834B6 /* Pods-FWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWatch.release.xcconfig"; sourceTree = "<group>"; };
-		7BE48622E3270B2EBA593B1B26892E4A /* libFlurryWatch_10.0.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurryWatch_10.0.0.a; path = Flurry/libFlurryWatch_10.0.0.a; sourceTree = "<group>"; };
-		7FFA828687C4AB797E5CCC8A2E6CCF67 /* Flurry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Flurry/Flurry.h; sourceTree = "<group>"; };
-		80F9F45F8CC203A956D614A2B8410B8E /* FlurryConsent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryConsent.h; path = Flurry/FlurryConsent.h; sourceTree = "<group>"; };
-		81A228DC720DC1C81D7DBDD022313F13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		83BB54346E2D6D4630A90A2C8672BC87 /* FlurryEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlurryEmpty.m; path = Flurry/FlurryEmpty.m; sourceTree = "<group>"; };
+		74CA8A9BA2C834013C524AF451CADCA2 /* FlurryUserProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryUserProperties.h; path = Flurry/FlurryUserProperties.h; sourceTree = "<group>"; };
+		7B79721E69726B2DB98A35773278B6DD /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		7E0C2589694EE53E2496E8A2935FCAD7 /* Flurry-iOS-SDK-FlurryWatchOSSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Flurry-iOS-SDK-FlurryWatchOSSDK.xcconfig"; path = "../Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK.xcconfig"; sourceTree = "<group>"; };
 		86E2B6D2A813279449FB3E56870D254D /* Flurry_iOS_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Flurry_iOS_SDK.framework; path = "Flurry-iOS-SDK-FlurryWatchOSSDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A4E375FC2486B903D41A36473A45151 /* Flurry-iOS-SDK-FlurryWatchOSSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Flurry-iOS-SDK-FlurryWatchOSSDK-dummy.m"; path = "../Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK-dummy.m"; sourceTree = "<group>"; };
+		8A57A746A3B47CD3C58BAA053939B4B8 /* Flurry-iOS-SDK-FlurryWatchOSSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Flurry-iOS-SDK-FlurryWatchOSSDK-dummy.m"; path = "../Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK-dummy.m"; sourceTree = "<group>"; };
 		8CA1247045AA2A1C2B09DC203B6AF41A /* Pods-FWatch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FWatch-Info.plist"; sourceTree = "<group>"; };
-		91A799207C077797F6A00714F91DB8DF /* Flurry-iOS-SDK-FlurryWatchOSSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Flurry-iOS-SDK-FlurryWatchOSSDK.xcconfig"; path = "../Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK.xcconfig"; sourceTree = "<group>"; };
 		9385B3F2F789F09D0CD7B199396104CC /* Pods-FWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWatch.debug.xcconfig"; sourceTree = "<group>"; };
 		946A2DED686B065B1DF17002BE8B9F89 /* Pods-FlurryWatch_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlurryWatch_Swift-umbrella.h"; sourceTree = "<group>"; };
-		9498C384CB6F307796F4A47BC6912B08 /* FlurryWatchEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlurryWatchEmpty.m; path = Flurry/FlurryWatchEmpty.m; sourceTree = "<group>"; };
-		9841B5F8CC1ED2643285ADEFC0C5DAD6 /* Flurry-iOS-SDK-FlurryWatchOSSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Flurry-iOS-SDK-FlurryWatchOSSDK-umbrella.h"; path = "../Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK-umbrella.h"; sourceTree = "<group>"; };
+		9AD1F569E4ED5B2888F2CF4E0BB832E4 /* FlurrySessionBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurrySessionBuilder.h; path = Flurry/FlurrySessionBuilder.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E0BDB79CF34C0BA0B628221DEC837F0 /* FlurrySessionBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurrySessionBuilder.h; path = Flurry/FlurrySessionBuilder.h; sourceTree = "<group>"; };
 		A66F4BD27005D8D708391F6067C6EF42 /* Pods-FWatch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWatch Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		AE6D2DD1BB5C67B849683B9C22ED13BE /* Flurry-iOS-SDK-FlurrySDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Flurry-iOS-SDK-FlurrySDK.modulemap"; sourceTree = "<group>"; };
 		B3B285CD406357D2F723A97A3B7203E0 /* Pods-FWatch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FWatch-acknowledgements.plist"; sourceTree = "<group>"; };
 		B6731C7F66691AB93FD1BCD44A7E9D3D /* Pods-FWatch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FWatch-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B909AC732D74B46FDA0B343238491C99 /* Flurry-iOS-SDK-FlurrySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flurry-iOS-SDK-FlurrySDK-umbrella.h"; sourceTree = "<group>"; };
+		B8702111305999207A6E674A39956AAC /* FlurryCCPA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryCCPA.h; path = Flurry/FlurryCCPA.h; sourceTree = "<group>"; };
+		BADA6F22390E67A228AA8FE22B9B1A1A /* Flurry-iOS-SDK-FlurrySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flurry-iOS-SDK-FlurrySDK-prefix.pch"; sourceTree = "<group>"; };
 		BD6E920D30C5CF2EE80BEA665C77EB70 /* Pods-FWatch Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FWatch Extension-acknowledgements.plist"; sourceTree = "<group>"; };
-		C2470C753D4F86DB92330A5426DD8374 /* Flurry-iOS-SDK-FlurrySDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Flurry-iOS-SDK-FlurrySDK.modulemap"; sourceTree = "<group>"; };
+		BF9D7D9CB64E7400F8AC1F7C2007799E /* Flurry-iOS-SDK-FlurrySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Flurry-iOS-SDK-FlurrySDK-dummy.m"; sourceTree = "<group>"; };
+		C6A16F804639B068B2051113C5FBD4CC /* Flurry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Flurry/Flurry.h; sourceTree = "<group>"; };
 		C7C4B1D24CF96DB81BB5AFF2B6C12B47 /* Pods_FlurryWatch_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlurryWatch_Swift.framework; path = "Pods-FlurryWatch_Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9EB62D2512F70BDF06C44866D47DFE3 /* Flurry-iOS-SDK-FlurrySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flurry-iOS-SDK-FlurrySDK-prefix.pch"; sourceTree = "<group>"; };
 		CDFDA7CF23BC65509E59F48642F745AA /* Pods-FlurryWatch_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlurryWatch_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		D0172E1E7C91CB60A9D9072CBD711F08 /* Pods-FlurryWatch_Swift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlurryWatch_Swift-frameworks.sh"; sourceTree = "<group>"; };
-		D82C56AA8286A2C82C4B9EFF1C117C00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D91C03C60814C3C37BDCB0FAFCC84043 /* Pods-FlurryWatch_Swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlurryWatch_Swift-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DA2AEAC56F0758DB33A8C207D0E74A01 /* Pods-FlurryWatch_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlurryWatch_Swift-dummy.m"; sourceTree = "<group>"; };
-		DD91150719CAFA1BFA87F10299CB85A1 /* Flurry-iOS-SDK-FlurryWatchOSSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Flurry-iOS-SDK-FlurryWatchOSSDK.modulemap"; path = "../Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK.modulemap"; sourceTree = "<group>"; };
-		ED05B5FED449978F091B657C16D2A81B /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/WatchKit.framework; sourceTree = DEVELOPER_DIR; };
+		EB3ECC2277103B0F7DE887E1753A4EF3 /* Flurry-iOS-SDK-FlurrySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flurry-iOS-SDK-FlurrySDK-umbrella.h"; sourceTree = "<group>"; };
+		ECAD6F166BE8D8C6F57F65EE47E48C63 /* Flurry-iOS-SDK-FlurrySDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Flurry-iOS-SDK-FlurrySDK-Info.plist"; sourceTree = "<group>"; };
+		ED0936C7EB771D8CC5120695F208C756 /* FlurryWatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryWatch.h; path = Flurry/FlurryWatch.h; sourceTree = "<group>"; };
+		EE1EB6F8E237E2CD42043937383B117F /* FlurryEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlurryEmpty.m; path = Flurry/FlurryEmpty.m; sourceTree = "<group>"; };
+		EFE36AD8D2F8FD39211B276BDE8A6DB4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		EFE9C8634E7A29DA520C5CEBEAC5532A /* libFlurryWatch_10.2.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurryWatch_10.2.0.a; path = Flurry/libFlurryWatch_10.2.0.a; sourceTree = "<group>"; };
+		F013D94FEAFBCD3A38326F126108A8A8 /* Flurry-iOS-SDK-FlurrySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Flurry-iOS-SDK-FlurrySDK.xcconfig"; sourceTree = "<group>"; };
 		F511D11F92647695AFBAB834CC0C1E0A /* Pods_FWatch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FWatch_Extension.framework; path = "Pods-FWatch Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDE830B17B067187C830DEB38CCD9354 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		FFEA85170E7083547679202E23B8D57F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1282D3100CD05852643F533711EA1DE5 /* Frameworks */ = {
+		455B65B15361ACF98E9A64B8E9E522CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8BDC3D8F6B42DD5D6F33A2F0A1A6B9C /* Foundation.framework in Frameworks */,
-				2AD690FA12E07C34A7B63C8DFBF51DD4 /* Security.framework in Frameworks */,
-				716BD0406C2E9C0D253A2C331C90473F /* SystemConfiguration.framework in Frameworks */,
-				4C42E6B0DC12E4194BC6A6762329B038 /* UIKit.framework in Frameworks */,
+				BEE7BB9F75DBFA612D2B2BF50E5F6426 /* Foundation.framework in Frameworks */,
+				85814141BD387F39A4A50024A004FDB2 /* Security.framework in Frameworks */,
+				B854F77507D5491A95B1A27C1EE72A56 /* SystemConfiguration.framework in Frameworks */,
+				1DC6F5BC2A7B371573E3403F1C7C51BA /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54BEA1B4F668154C1E3AD2B15BC276F4 /* Frameworks */ = {
+		8F020904B9E0B06D2CAB518FF5A00DD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0CBDA5D4415DD50AFFD27ED735D0920 /* Foundation.framework in Frameworks */,
-				5D0E3CFCE3C02243901BCA17BF8DE72E /* WatchConnectivity.framework in Frameworks */,
-				3AF8A4783D023399F04CA512380AE800 /* WatchKit.framework in Frameworks */,
+				E5407D2DDA15FEB7C324A8EDFC5E3D21 /* Foundation.framework in Frameworks */,
+				912B152573AE77A6D68FD50A36FB586E /* WatchConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,53 +202,76 @@
 			path = "Target Support Files/Pods-FWatch";
 			sourceTree = "<group>";
 		};
-		2822DB2D6A460B61253A211C65D8C2F8 /* FlurryWatchOSSDK */ = {
+		1ED71DDDC48B20F492D45CC43BBD015C /* FlurryWatchOSSDK */ = {
 			isa = PBXGroup;
 			children = (
-				403DC1B3D746A8E543A541B98C61CEC3 /* FlurryWatch.h */,
-				9498C384CB6F307796F4A47BC6912B08 /* FlurryWatchEmpty.m */,
-				9AC2D56A45BB2112076414DF039A8AB3 /* Frameworks */,
+				ED0936C7EB771D8CC5120695F208C756 /* FlurryWatch.h */,
+				0DFCAE2A994CA5D8461ECD246EF08029 /* FlurryWatchEmpty.m */,
+				FE92A82EBDE6E682507ECF79FB9C27BB /* Frameworks */,
 			);
 			name = FlurryWatchOSSDK;
 			sourceTree = "<group>";
 		};
-		2D303537411B180CEC0C0B924763618C /* FlurrySDK */ = {
+		50FC781FB9572290D42B59DDEC2DC406 /* FlurrySDK */ = {
 			isa = PBXGroup;
 			children = (
-				7FFA828687C4AB797E5CCC8A2E6CCF67 /* Flurry.h */,
-				80F9F45F8CC203A956D614A2B8410B8E /* FlurryConsent.h */,
-				83BB54346E2D6D4630A90A2C8672BC87 /* FlurryEmpty.m */,
-				9E0BDB79CF34C0BA0B628221DEC837F0 /* FlurrySessionBuilder.h */,
-				B8AF1C0666531A2D36324E4A63B812CB /* Frameworks */,
+				C6A16F804639B068B2051113C5FBD4CC /* Flurry.h */,
+				B8702111305999207A6E674A39956AAC /* FlurryCCPA.h */,
+				5C2B36AB89DF49DF891AEFA21364B344 /* FlurryConsent.h */,
+				EE1EB6F8E237E2CD42043937383B117F /* FlurryEmpty.m */,
+				9AD1F569E4ED5B2888F2CF4E0BB832E4 /* FlurrySessionBuilder.h */,
+				74CA8A9BA2C834013C524AF451CADCA2 /* FlurryUserProperties.h */,
+				EC5256920A34CCB7F46BD986DBC85447 /* Frameworks */,
 			);
 			name = FlurrySDK;
 			sourceTree = "<group>";
 		};
-		39AED2A82132640245185DD50E451146 /* Frameworks */ = {
+		65FE623659B92A49893963032D9925C3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E53DD77F621C9134C6CB461A42304D71 /* iOS */,
-				3A25A5AAAFBD39268A8AC8E9991BA668 /* watchOS */,
+				AE6D2DD1BB5C67B849683B9C22ED13BE /* Flurry-iOS-SDK-FlurrySDK.modulemap */,
+				F013D94FEAFBCD3A38326F126108A8A8 /* Flurry-iOS-SDK-FlurrySDK.xcconfig */,
+				BF9D7D9CB64E7400F8AC1F7C2007799E /* Flurry-iOS-SDK-FlurrySDK-dummy.m */,
+				ECAD6F166BE8D8C6F57F65EE47E48C63 /* Flurry-iOS-SDK-FlurrySDK-Info.plist */,
+				BADA6F22390E67A228AA8FE22B9B1A1A /* Flurry-iOS-SDK-FlurrySDK-prefix.pch */,
+				EB3ECC2277103B0F7DE887E1753A4EF3 /* Flurry-iOS-SDK-FlurrySDK-umbrella.h */,
+				32B06A1CD701F48C5CB1C519D6F64157 /* Flurry-iOS-SDK-FlurryWatchOSSDK.modulemap */,
+				7E0C2589694EE53E2496E8A2935FCAD7 /* Flurry-iOS-SDK-FlurryWatchOSSDK.xcconfig */,
+				8A57A746A3B47CD3C58BAA053939B4B8 /* Flurry-iOS-SDK-FlurryWatchOSSDK-dummy.m */,
+				27F75E330007262F6A24D9BAA2A23704 /* Flurry-iOS-SDK-FlurryWatchOSSDK-Info.plist */,
+				52DF3FDF5F4728528C13C2CD214E400A /* Flurry-iOS-SDK-FlurryWatchOSSDK-prefix.pch */,
+				2B393D629EDD42EA3E794EDA8529B86C /* Flurry-iOS-SDK-FlurryWatchOSSDK-umbrella.h */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3A25A5AAAFBD39268A8AC8E9991BA668 /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				81A228DC720DC1C81D7DBDD022313F13 /* Foundation.framework */,
-				402BC3F142C534F93852C9D2B0F7D55E /* WatchConnectivity.framework */,
-				ED05B5FED449978F091B657C16D2A81B /* WatchKit.framework */,
-			);
-			name = watchOS;
+			name = "Support Files";
+			path = "../Target Support Files/Flurry-iOS-SDK-FlurrySDK";
 			sourceTree = "<group>";
 		};
 		67761A6E8D4C08BDBDA7C162783A3911 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ED2524C5910CBA0FBFF35E0747CEF85C /* Flurry-iOS-SDK */,
+				D08CBD6F4DC7C2249CE164E969F4F5F2 /* Flurry-iOS-SDK */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		78BA55A5D82E2B045563E012FE3E3A26 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0B6C5281BABBF31FFCAD1129723C33DD /* Foundation.framework */,
+				2960D39D7DABDD2B7A759446932B734E /* Security.framework */,
+				EFE36AD8D2F8FD39211B276BDE8A6DB4 /* SystemConfiguration.framework */,
+				6B866C918DA2E0009FD907E1E75622BD /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7AF61B394929C3AFB2EA5C0B949D7077 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				28CA6009FBF19EF3C6DF751BCCBEAAF8 /* Foundation.framework */,
+				7B79721E69726B2DB98A35773278B6DD /* WatchConnectivity.framework */,
+			);
+			name = watchOS;
 			sourceTree = "<group>";
 		};
 		8A41D9AD1AF9F5EAC441C9AFCBE24BA6 /* Products */ = {
@@ -260,6 +286,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8B5E711BD5ED50FE2DB0FCA2BC85B068 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78BA55A5D82E2B045563E012FE3E3A26 /* iOS */,
+				7AF61B394929C3AFB2EA5C0B949D7077 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		903B007B530550A96CBB2742F79E9272 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,31 +305,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9AC2D56A45BB2112076414DF039A8AB3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7BE48622E3270B2EBA593B1B26892E4A /* libFlurryWatch_10.0.0.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B8AF1C0666531A2D36324E4A63B812CB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				484927AD3DE4C37FF645DAF74F0D0D59 /* libFlurry_10.0.0.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				39AED2A82132640245185DD50E451146 /* Frameworks */,
+				8B5E711BD5ED50FE2DB0FCA2BC85B068 /* Frameworks */,
 				67761A6E8D4C08BDBDA7C162783A3911 /* Pods */,
 				8A41D9AD1AF9F5EAC441C9AFCBE24BA6 /* Products */,
 				903B007B530550A96CBB2742F79E9272 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D08CBD6F4DC7C2249CE164E969F4F5F2 /* Flurry-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				50FC781FB9572290D42B59DDEC2DC406 /* FlurrySDK */,
+				1ED71DDDC48B20F492D45CC43BBD015C /* FlurryWatchOSSDK */,
+				65FE623659B92A49893963032D9925C3 /* Support Files */,
+			);
+			name = "Flurry-iOS-SDK";
+			path = "Flurry-iOS-SDK";
 			sourceTree = "<group>";
 		};
 		D33BAA090B2ED362575EED90F5E9501B /* Pods-FWatch Extension */ = {
@@ -314,46 +344,20 @@
 			path = "Target Support Files/Pods-FWatch Extension";
 			sourceTree = "<group>";
 		};
-		DDCFBE0CE7A9273A60B6C94030C915E4 /* Support Files */ = {
+		EC5256920A34CCB7F46BD986DBC85447 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C2470C753D4F86DB92330A5426DD8374 /* Flurry-iOS-SDK-FlurrySDK.modulemap */,
-				5456D39C5C615DC5D7CD255A2D9241BC /* Flurry-iOS-SDK-FlurrySDK.xcconfig */,
-				581FE5AA0E7C57ABCA63693053F890A1 /* Flurry-iOS-SDK-FlurrySDK-dummy.m */,
-				5A6F925915C519AE424B37D38AF5AC3D /* Flurry-iOS-SDK-FlurrySDK-Info.plist */,
-				C9EB62D2512F70BDF06C44866D47DFE3 /* Flurry-iOS-SDK-FlurrySDK-prefix.pch */,
-				B909AC732D74B46FDA0B343238491C99 /* Flurry-iOS-SDK-FlurrySDK-umbrella.h */,
-				DD91150719CAFA1BFA87F10299CB85A1 /* Flurry-iOS-SDK-FlurryWatchOSSDK.modulemap */,
-				91A799207C077797F6A00714F91DB8DF /* Flurry-iOS-SDK-FlurryWatchOSSDK.xcconfig */,
-				8A4E375FC2486B903D41A36473A45151 /* Flurry-iOS-SDK-FlurryWatchOSSDK-dummy.m */,
-				286F4EC9F19AFD202490932765FEF8A8 /* Flurry-iOS-SDK-FlurryWatchOSSDK-Info.plist */,
-				1A319A229C48FD2CC838EAFCF3910ACF /* Flurry-iOS-SDK-FlurryWatchOSSDK-prefix.pch */,
-				9841B5F8CC1ED2643285ADEFC0C5DAD6 /* Flurry-iOS-SDK-FlurryWatchOSSDK-umbrella.h */,
+				3AFF9D0F5725AEBB2380A2425C37CE1E /* libFlurry_10.2.0.a */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Flurry-iOS-SDK-FlurrySDK";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E53DD77F621C9134C6CB461A42304D71 /* iOS */ = {
+		FE92A82EBDE6E682507ECF79FB9C27BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D82C56AA8286A2C82C4B9EFF1C117C00 /* Foundation.framework */,
-				FDE830B17B067187C830DEB38CCD9354 /* Security.framework */,
-				5CBDD038BAE404FB0A3584A27514F1EB /* SystemConfiguration.framework */,
-				FFEA85170E7083547679202E23B8D57F /* UIKit.framework */,
+				EFE9C8634E7A29DA520C5CEBEAC5532A /* libFlurryWatch_10.2.0.a */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		ED2524C5910CBA0FBFF35E0747CEF85C /* Flurry-iOS-SDK */ = {
-			isa = PBXGroup;
-			children = (
-				2D303537411B180CEC0C0B924763618C /* FlurrySDK */,
-				2822DB2D6A460B61253A211C65D8C2F8 /* FlurryWatchOSSDK */,
-				DDCFBE0CE7A9273A60B6C94030C915E4 /* Support Files */,
-			);
-			name = "Flurry-iOS-SDK";
-			path = "Flurry-iOS-SDK";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,34 +371,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0B0A6B4CE3D3695A5E86CD5190266209 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73F3F9F4AC4C5D48B7646291C566C10 /* Flurry-iOS-SDK-FlurryWatchOSSDK-umbrella.h in Headers */,
+				E8888EFD96FE5FE82145408EE6A4A98B /* Flurry.h in Headers */,
+				7E0B4AE48C0B03D8041DF2C5348C435D /* FlurryCCPA.h in Headers */,
+				D86D6D8A00072EE69AC72C23EBF4EB24 /* FlurryConsent.h in Headers */,
+				9EC9BE82543E9BD40C7FC458CCA9C8EC /* FlurrySessionBuilder.h in Headers */,
+				BB17F1A524BDC3BB5ECA60DEADA62314 /* FlurryUserProperties.h in Headers */,
+				87971C0D7BCAE21F7C4B5C2A7B547BFC /* FlurryWatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C1BA07E8E0DF17639816991BBDBF06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921A6F69613913A84FC7C76401954D59 /* Flurry-iOS-SDK-FlurrySDK-umbrella.h in Headers */,
+				833767C457F4D0AA565A790D5C8BC16A /* Flurry.h in Headers */,
+				F32A859459CA35E2C790D71C5BCD505C /* FlurryCCPA.h in Headers */,
+				9A90F455BC5A7F1490CF706D7092A121 /* FlurryConsent.h in Headers */,
+				58141015895B32F4F6460D64EAF597EA /* FlurrySessionBuilder.h in Headers */,
+				6D3F5961F2D61CDCE45EE8DA25744F09 /* FlurryUserProperties.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5770DFF3C946DBF952E251F4AE1B260F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8BA34FBC58EF523082A87BAAE8AFFCFE /* Pods-FlurryWatch_Swift-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D6ABCF2F4C79E5381965EF6A8D19F056 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08AFFC619C11B084B782F7E2D5AAD3B5 /* Flurry-iOS-SDK-FlurryWatchOSSDK-umbrella.h in Headers */,
-				23657B17031CCC83D68EADB0B5AE1D67 /* Flurry.h in Headers */,
-				54B8DB6FFD2A79C539730356B350FE01 /* FlurryConsent.h in Headers */,
-				B7F817FCA0432BB51783A8AE728F0799 /* FlurrySessionBuilder.h in Headers */,
-				C95F3848FC98A26863A5BDF629E59E59 /* FlurryWatch.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1C49AAF00C34AA063CF53E331A03E1D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3EFC6F4965AD94BECCC242542B20EA49 /* Flurry-iOS-SDK-FlurrySDK-umbrella.h in Headers */,
-				5F05204C3338F002DB7BBB736DE77C26 /* Flurry.h in Headers */,
-				0AFEF4026E94B81161378734C4D186DE /* FlurryConsent.h in Headers */,
-				B40EC64FF747FC28105BE9C1ECE7CBBA /* FlurrySessionBuilder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,12 +475,12 @@
 		};
 		BBFD4EF00C8443A629672A5B9741BE51 /* Flurry-iOS-SDK-FlurrySDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB61DDC06104DEEC62221AB7E517D842 /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK-FlurrySDK" */;
+			buildConfigurationList = F5241013AA66AFBEFA8D2ACDD67C805B /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK-FlurrySDK" */;
 			buildPhases = (
-				F1C49AAF00C34AA063CF53E331A03E1D /* Headers */,
-				019874FE97731C19F434F5F266A24B5E /* Sources */,
-				1282D3100CD05852643F533711EA1DE5 /* Frameworks */,
-				7F3198C65D2C7F9385E8E224E76B8489 /* Resources */,
+				46C1BA07E8E0DF17639816991BBDBF06 /* Headers */,
+				4EED16F00B774B946090F5415DEDD691 /* Sources */,
+				455B65B15361ACF98E9A64B8E9E522CE /* Frameworks */,
+				705B01ED0EBBC1003AC2A372F4011D19 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -485,12 +493,12 @@
 		};
 		EC9019E41D8A9D521B48B9D7A89E0EC5 /* Flurry-iOS-SDK-FlurryWatchOSSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5CA5A634F3A2950F5357214FC602D0F8 /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK-FlurryWatchOSSDK" */;
+			buildConfigurationList = 3B2D9A4E0E6A3B10E6596B85631984E8 /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK-FlurryWatchOSSDK" */;
 			buildPhases = (
-				D6ABCF2F4C79E5381965EF6A8D19F056 /* Headers */,
-				DDFBCD78E20175066E5556B180BCA8A6 /* Sources */,
-				54BEA1B4F668154C1E3AD2B15BC276F4 /* Frameworks */,
-				EF38360FD182C158C29FEA6204E3A750 /* Resources */,
+				0B0A6B4CE3D3695A5E86CD5190266209 /* Headers */,
+				D9B8361F3FAA34EB3993F78FD420E4A5 /* Sources */,
+				8F020904B9E0B06D2CAB518FF5A00DD8 /* Frameworks */,
+				DF601B2D4B98043EEC4FE775FC5A396E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -516,6 +524,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 8A41D9AD1AF9F5EAC441C9AFCBE24BA6 /* Products */;
@@ -546,7 +555,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F3198C65D2C7F9385E8E224E76B8489 /* Resources */ = {
+		705B01ED0EBBC1003AC2A372F4011D19 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -560,7 +569,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF38360FD182C158C29FEA6204E3A750 /* Resources */ = {
+		DF601B2D4B98043EEC4FE775FC5A396E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -570,15 +579,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		019874FE97731C19F434F5F266A24B5E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9C81D743DA8CB649DAF56D0DA53AC30 /* Flurry-iOS-SDK-FlurrySDK-dummy.m in Sources */,
-				A123018C6D5255853A71982EF5354FAE /* FlurryEmpty.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1D92BA06CA1C2E7FFED78B6436597F71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -595,6 +595,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4EED16F00B774B946090F5415DEDD691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B125362C7036FC450DFD023E7AE9820F /* Flurry-iOS-SDK-FlurrySDK-dummy.m in Sources */,
+				5AF92FEFAD920E239B5946C5A8C99E96 /* FlurryEmpty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6593DFB9AEB74F6A34D4EC5AFD69A94C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -603,12 +612,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDFBCD78E20175066E5556B180BCA8A6 /* Sources */ = {
+		D9B8361F3FAA34EB3993F78FD420E4A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52904F2B514A953A3B5A75308302B39C /* Flurry-iOS-SDK-FlurryWatchOSSDK-dummy.m in Sources */,
-				7465EAD55BC29840297F3DF4F7C6378B /* FlurryWatchEmpty.m in Sources */,
+				FC793351D5DFFCB812D7A3D4172E12C4 /* Flurry-iOS-SDK-FlurryWatchOSSDK-dummy.m in Sources */,
+				CD67C390C3FE062977C3158609C17597 /* FlurryWatchEmpty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -695,78 +704,6 @@
 			};
 			name = Debug;
 		};
-		1F5161064FA63BFC22403BC5E04A8BAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91A799207C077797F6A00714F91DB8DF /* Flurry-iOS-SDK-FlurryWatchOSSDK.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK.modulemap";
-				PRODUCT_MODULE_NAME = Flurry_iOS_SDK;
-				PRODUCT_NAME = Flurry_iOS_SDK;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		242C5FBB3D29C5A5A1A4E6B1E86C8B06 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5456D39C5C615DC5D7CD255A2D9241BC /* Flurry-iOS-SDK-FlurrySDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK-FlurrySDK/Flurry-iOS-SDK-FlurrySDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Flurry-iOS-SDK-FlurrySDK/Flurry-iOS-SDK-FlurrySDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Flurry-iOS-SDK-FlurrySDK/Flurry-iOS-SDK-FlurrySDK.modulemap";
-				PRODUCT_MODULE_NAME = Flurry_iOS_SDK;
-				PRODUCT_NAME = Flurry_iOS_SDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		252D5E777AD6798A289108014326F7A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3538785DE5C283D6FD1B375876AF0E03 /* Pods-FlurryWatch_Swift.debug.xcconfig */;
@@ -842,41 +779,6 @@
 			};
 			name = Release;
 		};
-		2D21A080403285E49A7AD222B92C201A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5456D39C5C615DC5D7CD255A2D9241BC /* Flurry-iOS-SDK-FlurrySDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK-FlurrySDK/Flurry-iOS-SDK-FlurrySDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Flurry-iOS-SDK-FlurrySDK/Flurry-iOS-SDK-FlurrySDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Flurry-iOS-SDK-FlurrySDK/Flurry-iOS-SDK-FlurrySDK.modulemap";
-				PRODUCT_MODULE_NAME = Flurry_iOS_SDK;
-				PRODUCT_NAME = Flurry_iOS_SDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		36C9A5F5F72DE08DB72154AF5F43DE17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -938,11 +840,10 @@
 			};
 			name = Release;
 		};
-		5305DFE993D86E5AB7134670F9AB40CB /* Release */ = {
+		597866994C59B9A679D735A145B1EAFA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91A799207C077797F6A00714F91DB8DF /* Flurry-iOS-SDK-FlurryWatchOSSDK.xcconfig */;
+			baseConfigurationReference = F013D94FEAFBCD3A38326F126108A8A8 /* Flurry-iOS-SDK-FlurrySDK.xcconfig */;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -952,28 +853,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK-FlurrySDK/Flurry-iOS-SDK-FlurrySDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Flurry-iOS-SDK-FlurrySDK/Flurry-iOS-SDK-FlurrySDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Flurry-iOS-SDK-FlurrySDK/Flurry-iOS-SDK-FlurrySDK.modulemap";
 				PRODUCT_MODULE_NAME = Flurry_iOS_SDK;
 				PRODUCT_NAME = Flurry_iOS_SDK;
-				SDKROOT = watchos;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
-			name = Release;
+			name = Debug;
 		};
 		7DDB8195B9103770541E1BEAC3479631 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1011,6 +911,79 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		8CFBE89D1F6CC8187A59AD9403E486B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F013D94FEAFBCD3A38326F126108A8A8 /* Flurry-iOS-SDK-FlurrySDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK-FlurrySDK/Flurry-iOS-SDK-FlurrySDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Flurry-iOS-SDK-FlurrySDK/Flurry-iOS-SDK-FlurrySDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Flurry-iOS-SDK-FlurrySDK/Flurry-iOS-SDK-FlurrySDK.modulemap";
+				PRODUCT_MODULE_NAME = Flurry_iOS_SDK;
+				PRODUCT_NAME = Flurry_iOS_SDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A291D8527B0FCD45073A538E752C861E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0C2589694EE53E2496E8A2935FCAD7 /* Flurry-iOS-SDK-FlurryWatchOSSDK.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK.modulemap";
+				PRODUCT_MODULE_NAME = Flurry_iOS_SDK;
+				PRODUCT_NAME = Flurry_iOS_SDK;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -1052,6 +1025,42 @@
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
+		};
+		DCFF830F9F14C9B833BAAB2BA14F6899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0C2589694EE53E2496E8A2935FCAD7 /* Flurry-iOS-SDK-FlurryWatchOSSDK.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Flurry-iOS-SDK-FlurryWatchOSSDK/Flurry-iOS-SDK-FlurryWatchOSSDK.modulemap";
+				PRODUCT_MODULE_NAME = Flurry_iOS_SDK;
+				PRODUCT_NAME = Flurry_iOS_SDK;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
 		};
 		F332B7CB57546B147304C0756FD1768A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1132,6 +1141,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3B2D9A4E0E6A3B10E6596B85631984E8 /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK-FlurryWatchOSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFF830F9F14C9B833BAAB2BA14F6899 /* Debug */,
+				A291D8527B0FCD45073A538E752C861E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1159,15 +1177,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5CA5A634F3A2950F5357214FC602D0F8 /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK-FlurryWatchOSSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F5161064FA63BFC22403BC5E04A8BAC /* Debug */,
-				5305DFE993D86E5AB7134670F9AB40CB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A3DC0031A8FDD55EB205CBF419FBFF88 /* Build configuration list for PBXNativeTarget "Pods-FWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1177,11 +1186,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB61DDC06104DEEC62221AB7E517D842 /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK-FlurrySDK" */ = {
+		F5241013AA66AFBEFA8D2ACDD67C805B /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK-FlurrySDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D21A080403285E49A7AD222B92C201A /* Debug */,
-				242C5FBB3D29C5A5A1A4E6B1E86C8B06 /* Release */,
+				597866994C59B9A679D735A145B1EAFA /* Debug */,
+				8CFBE89D1F6CC8187A59AD9403E486B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
