@@ -13,6 +13,8 @@
 #import "FlurryWatch.h"
 #import "Flurry.h"
 #import "FlurryConsent.h"
+#import "FlurryUserProperties.h"
+#import "FlurryCCPA.h"
 #import "FlurrySessionBuilder.h"
 
 FOUNDATION_EXPORT double Flurry_iOS_SDKVersionNumber;
