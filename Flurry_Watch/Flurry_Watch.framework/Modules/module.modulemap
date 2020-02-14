@@ -1,0 +1,6 @@
+framework module Flurry_Watch {
+  umbrella header "Flurry_Watch.h"
+
+  export *
+  module * { export * }
+}

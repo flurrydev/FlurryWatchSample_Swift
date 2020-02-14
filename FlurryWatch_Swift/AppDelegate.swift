@@ -16,7 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        Flurry.startSession("6QSG5T6M8FJTJ9F3NKNW");
+        Flurry.startSession("FNTMB9QWPCRWKSWTT9ZM", with: FlurrySessionBuilder
+        .init()
+        .withCrashReporting(true)
+        .withLogLevel(FlurryLogLevelAll))
         
         return true
     }
